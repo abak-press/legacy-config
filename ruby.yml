@@ -191,7 +191,7 @@ Style/GuardClause:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
-  Enabled: false
+  Enabled: true
 
 Style/NumericPredicate:
   Enabled: false
