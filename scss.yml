@@ -1,5 +1,5 @@
 exclude:
-  - 'frontend/blocks/**'
+  - 'frontend/**'
 
 linters:
   BangFormat:
