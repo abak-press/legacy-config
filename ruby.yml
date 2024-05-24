@@ -8,19 +8,19 @@ Naming/FileName:
 Naming/MethodName:
   Enabled: false
 
-AsciiComments:
+Style/AsciiComments:
   Enabled: false
 
-ClassLength:
+Metrics/ClassLength:
   Max: 300
 
-CollectionMethods:
+Style/CollectionMethods:
   PreferredMethods:
     reduce: inject
     collect: map
     find_all: select
 
-Documentation:
+Style/Documentation:
   Enabled: false
 
 Layout/DotPosition:
@@ -31,10 +31,10 @@ Layout/DotPosition:
 Layout/EmptyLineAfterMagicComment:
   Enabled: false
 
-DoubleNegation:
+Style/DoubleNegation:
   Enabled: false
 
-EmptyLiteral:
+Style/EmptyLiteral:
   Enabled: false
 
 Style/Encoding:
@@ -64,7 +64,7 @@ Style/SymbolArray:
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#percent-i
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 
 Metrics/BlockLength:
@@ -81,7 +81,7 @@ Naming/BinaryOperatorParameterName:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#other-arg'
   Enabled: false
 
-PredicateName:
+Naming/PredicateName:
   NamePrefixBlacklist:
     - is_
 
@@ -100,17 +100,17 @@ Style/SignalException:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#fail-method'
   Enabled: false
 
-StringLiterals:
+Style/StringLiterals:
   EnforcedStyle: single_quotes
   Enabled: false
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
-HashSyntax:
+Style/HashSyntax:
   Enabled: false
 
-Layout/TrailingBlankLines:
+Layout/TrailingEmptyLines:
   Enabled: false
 
 Style/AndOr:
@@ -118,12 +118,12 @@ Style/AndOr:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-and-or-or'
   Enabled: false
 
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   Description: 'Checks the indentation of the first key in a hash literal.'
   Enabled: true
   EnforcedStyle: consistent
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   Enabled: false
 
 Style/NestedParenthesizedCalls:
@@ -155,7 +155,7 @@ Lint/AssignmentInCondition:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition'
   Enabled: false
 
-LiteralInInterpolation:
+Lint/LiteralInInterpolation:
   Enabled: false
 
 Lint/UnusedMethodArgument:
