@@ -82,7 +82,7 @@ Naming/BinaryOperatorParameterName:
   Enabled: false
 
 Naming/PredicateName:
-  NamePrefixBlacklist:
+  ForbiddenPrefixes:
     - is_
 
 Style/SingleLineBlockParams:
