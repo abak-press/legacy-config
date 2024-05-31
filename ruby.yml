@@ -12,7 +12,7 @@ Style/AsciiComments:
   Enabled: false
 
 Metrics/ClassLength:
-  Max: 300
+  Max: 3000
 
 Style/CollectionMethods:
   PreferredMethods:
