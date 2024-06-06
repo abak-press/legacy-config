@@ -11,7 +11,7 @@
   "indent": 2,
   "newcap": true,
   "noarg": true,
-  "esnext": true,
+  "esversion": 5, 
   "noempty": true,
   "loopfunc": true,
   "nonew": true,

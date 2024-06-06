@@ -121,6 +121,7 @@ linters:
 
   PropertySpelling:
     enabled: true
+    extra_properties: [gap]
 
   PropertyUnits:
     enabled: false
@@ -144,6 +145,7 @@ linters:
 
   Shorthand:
     enabled: true
+    allowed_shorthands: [1, 2, 3, 4]
 
   SingleLinePerProperty:
     enabled: false
