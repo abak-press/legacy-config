@@ -218,7 +218,7 @@ Style/TrailingCommaInArguments:
 Style/TrailingCommaInArrayLiteral:
   Description: 'Checks for trailing comma in array literals.'
   StyleGuide: '#no-trailing-array-commas'
-  Enabled: true
+  Enabled: false
   VersionAdded: '0.53'
   # but only when each item is on its own line.
   # If `consistent_comma`, the cop requires a comma after the last item of all
@@ -231,7 +231,7 @@ Style/TrailingCommaInArrayLiteral:
 
 Style/TrailingCommaInHashLiteral:
   Description: 'Checks for trailing comma in hash literals.'
-  Enabled: true
+  Enabled: false
   # If `comma`, the cop requires a comma after the last item in a hash,
   # but only when each item is on its own line.
   # If `consistent_comma`, the cop requires a comma after the last item of all
